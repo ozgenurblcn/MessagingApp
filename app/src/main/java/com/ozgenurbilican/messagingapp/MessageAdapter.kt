@@ -47,13 +47,13 @@ class MessageAdapter(private val messages: List<Message>) :
         val message = messages[position]
         if (holder is UserMessageViewHolder) {
             holder.textViewMessage.text = message.content
-            holder.itemView.setBackgroundColor(0xFFBBDEFB.toInt())
+          
         } else if (holder is AutoReplyViewHolder) {
             holder.textViewMessage.text = message.content
-            holder.itemView.setBackgroundColor(0xFFFFE082.toInt())
+            
         } else if (holder is SystemMessageViewHolder) {
             holder.textViewMessage.text = message.content
-            holder.itemView.setBackgroundColor(0xFFC8E6C9.toInt())
+            
         }
     }
 
