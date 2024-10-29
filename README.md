@@ -5,7 +5,9 @@ Bu proje, Android Studio ile Kotlin kullanılarak geliştirilmiş basit bir mesa
 Özellikler
 
 Mesaj Gönderme: Kullanıcı, mesaj yazıp gönder butonuna tıklayarak mesaj gönderebilir.
+
 Mesaj Listeleme: Gönderilen ve alınan mesajlar bir listede görüntülenir.
+
 Farklı Baloncuk Renkleri: Kullanıcı mesajları ve otomatik yanıt mesajları farklı renklerde gösterilir.
 
 Ekran Görüntüleri
@@ -30,6 +32,7 @@ Android Studio’da Projeyi Açın
 
 Android Studio’yu açın ve Open seçeneğine tıklayarak proje klasörünü seçin.
 Proje açıldığında gerekli bağımlılıkların yüklendiğinden emin olun.
+
 Emülatör veya Fiziksel Cihaz Ayarı
 
 Android emülatörünü başlatın veya fiziksel cihazınızı USB ile bağlayın ve USB Hata Ayıklama modunu açın.
@@ -40,10 +43,13 @@ Android Studio’da sağ üst köşedeki Run butonuna basarak projeyi çalışt�
 Kullanım
 
 Mesaj Gönderme: Ana ekranda bulunan metin kutusuna bir mesaj yazın ve Gönder butonuna basın. Mesaj, ekranın sol tarafında görüntülenecektir.
+
 Otomatik Yanıt: Mesaj gönderildikten kısa bir süre sonra, otomatik yanıt olarak "Mesaj alındı" ifadesi ekranın sol tarafında belirecektir.
 
 Proje Yapısı
 
 MainActivity.kt: Uygulamanın ana aktivitelerini ve mesaj gönderme işlevlerini içerir.
+
 MessageAdapter.kt: RecyclerView için oluşturulmuş bir adaptör sınıfıdır.
+
 Message.kt: Her mesajın içeriğini ve gönderici bilgisini tutan veri sınıfıdır.
