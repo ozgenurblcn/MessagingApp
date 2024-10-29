@@ -15,7 +15,8 @@ Ekran Görüntüleri
 
 ![1](https://github.com/user-attachments/assets/b0047779-c664-44d1-8cd0-62fbf3fe7cef)
 
-![2](https://github.com/user-attachments/assets/265e6297-676e-431d-8409-f57b42077604)
+![3](https://github.com/user-attachments/assets/8baf7909-dc76-4f4b-a3f3-492b9921606e)
+
 
 Gereksinimler
 
